@@ -85,6 +85,4 @@ All overlay layers are enabled by default. Pass `overlays: []` for just the lens
 
 Run **ZoomScrollerDemo** on an iPhone simulator to explore the gestures with bundled surf photography and video.
 
-[Open the Xcode project](Example/ZoomScrollerDemo.xcodeproj) · [Media credits](Example/Credits.md)
-
-![A pinch moves from a rocky coastline into a surf clip and back](.github/media/zoomscrollerdemo.webp)
+[Media credits](Example/Credits.md)
