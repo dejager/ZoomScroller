@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345F581A71012190BD4B6FB6 /* FeedCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11117DE4CC3A7D4E40E874C8 /* FeedCatalog.swift */; };
+		50C87A6AA427449556BD51B7 /* ZoomScroller in Frameworks */ = {isa = PBXBuildFile; productRef = 545BB7A1E20CD14E4920D812 /* ZoomScroller */; };
+		5952C471B518D6DC081D96ED /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD6C761D20BEA693CF6BE0 /* FeedView.swift */; };
+		76CE0622E5A59106EA3372C4 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 134D4A171DB7E61A0C2889F6 /* Media */; };
+		8AB93EDB627AE05E2155D1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE19489290D78D2C7A448C78 /* Assets.xcassets */; };
+		D28D25F30A6E7E03F1D16A6E /* FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207179A205D4074633B71E8F /* FeedTests.swift */; };
+		FB1F6B9D29FAA9286678F465 /* ZoomScrollerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F6754A55AEE5B4AF49820 /* ZoomScrollerDemoApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33734A73AEE824675EC29F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52C33A3C76C9093B1EBE159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2FB2626F96C79BE09A24F6;
+			remoteInfo = ZoomScrollerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11117DE4CC3A7D4E40E874C8 /* FeedCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCatalog.swift; sourceTree = "<group>"; };
+		134D4A171DB7E61A0C2889F6 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Media; path = ZoomScrollerDemo/Media; sourceTree = SOURCE_ROOT; };
+		1AFD729A2EB6315A196585F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		207179A205D4074633B71E8F /* FeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTests.swift; sourceTree = "<group>"; };
+		6542DF6FC5C52C6B83DC0FC9 /* ZoomScrollerDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZoomScrollerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FD90EBAC3808E48B2D7F12 /* ZoomScroller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ZoomScroller; path = ..; sourceTree = SOURCE_ROOT; };
+		AC79D3BB03D831D2CC6EAF3F /* ZoomScrollerDemoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ZoomScrollerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7F6754A55AEE5B4AF49820 /* ZoomScrollerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomScrollerDemoApp.swift; sourceTree = "<group>"; };
+		DCFD6C761D20BEA693CF6BE0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		EE19489290D78D2C7A448C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF29A80F3BBBA36D8447FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C87A6AA427449556BD51B7 /* ZoomScroller in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BE2C6C57BD6A8F1FF4CC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6542DF6FC5C52C6B83DC0FC9 /* ZoomScrollerDemo.app */,
+				AC79D3BB03D831D2CC6EAF3F /* ZoomScrollerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67DF1A8BF7BE56A2C2273CA9 = {
+			isa = PBXGroup;
+			children = (
+				134D4A171DB7E61A0C2889F6 /* Media */,
+				91C35922F61C9CA0829B84A0 /* ZoomScrollerDemo */,
+				6BB65B3D103B2209B932C072 /* Packages */,
+				D10C6D4045EBA33FA5227430 /* Tests */,
+				66BE2C6C57BD6A8F1FF4CC97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB65B3D103B2209B932C072 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A5FD90EBAC3808E48B2D7F12 /* ZoomScroller */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		91C35922F61C9CA0829B84A0 /* ZoomScrollerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE19489290D78D2C7A448C78 /* Assets.xcassets */,
+				11117DE4CC3A7D4E40E874C8 /* FeedCatalog.swift */,
+				DCFD6C761D20BEA693CF6BE0 /* FeedView.swift */,
+				BD7F6754A55AEE5B4AF49820 /* ZoomScrollerDemoApp.swift */,
+				1AFD729A2EB6315A196585F4 /* Info.plist */,
+			);
+			path = ZoomScrollerDemo;
+			sourceTree = "<group>";
+		};
+		D10C6D4045EBA33FA5227430 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				207179A205D4074633B71E8F /* FeedTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2FB2626F96C79BE09A24F6 /* ZoomScrollerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF411C6A6D2E1819B1ADD34E /* Build configuration list for PBXNativeTarget "ZoomScrollerDemo" */;
+			buildPhases = (
+				8AB18C444DC8FFCC5C62A7D6 /* Sources */,
+				8587FBD6A0B06ECAC0C6A74B /* Resources */,
+				AAF29A80F3BBBA36D8447FDA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomScrollerDemo;
+			packageProductDependencies = (
+				545BB7A1E20CD14E4920D812 /* ZoomScroller */,
+			);
+			productName = ZoomScrollerDemo;
+			productReference = 6542DF6FC5C52C6B83DC0FC9 /* ZoomScrollerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4984CAA973A0BBDFB7DF2163 /* ZoomScrollerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6100DC3CC3962A4C83D0B44C /* Build configuration list for PBXNativeTarget "ZoomScrollerDemoUITests" */;
+			buildPhases = (
+				9B025801743FFCE53ED5FAE9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7BB27533658665BF6C85CD /* PBXTargetDependency */,
+			);
+			name = ZoomScrollerDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = ZoomScrollerDemoUITests;
+			productReference = AC79D3BB03D831D2CC6EAF3F /* ZoomScrollerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52C33A3C76C9093B1EBE159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4984CAA973A0BBDFB7DF2163 = {
+						TestTargetID = 3F2FB2626F96C79BE09A24F6;
+					};
+				};
+			};
+			buildConfigurationList = BAE44CF7DF9FB1882F454B09 /* Build configuration list for PBXProject "ZoomScrollerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 67DF1A8BF7BE56A2C2273CA9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				75999C00FCE0C75ACE162501 /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2FB2626F96C79BE09A24F6 /* ZoomScrollerDemo */,
+				4984CAA973A0BBDFB7DF2163 /* ZoomScrollerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8587FBD6A0B06ECAC0C6A74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB93EDB627AE05E2155D1AF /* Assets.xcassets in Resources */,
+				76CE0622E5A59106EA3372C4 /* Media in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB18C444DC8FFCC5C62A7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345F581A71012190BD4B6FB6 /* FeedCatalog.swift in Sources */,
+				5952C471B518D6DC081D96ED /* FeedView.swift in Sources */,
+				FB1F6B9D29FAA9286678F465 /* ZoomScrollerDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B025801743FFCE53ED5FAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28D25F30A6E7E03F1D16A6E /* FeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7BB27533658665BF6C85CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2FB2626F96C79BE09A24F6 /* ZoomScrollerDemo */;
+			targetProxy = 33734A73AEE824675EC29F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11EF092701C9BE3FB44BD612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.zoomscroller.demo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoomScrollerDemo;
+			};
+			name = Debug;
+		};
+		500638515E46AC1752E68632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FBD707134901E28602394D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ZoomScrollerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.zoomscroller.demo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8176C4D0CFFF29D3763917AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B9640972E58BD033FC078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.zoomscroller.demo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoomScrollerDemo;
+			};
+			name = Release;
+		};
+		F71698B061D2634EB7DFD34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ZoomScrollerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.zoomscroller.demo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6100DC3CC3962A4C83D0B44C /* Build configuration list for PBXNativeTarget "ZoomScrollerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EF092701C9BE3FB44BD612 /* Debug */,
+				9B9640972E58BD033FC078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAE44CF7DF9FB1882F454B09 /* Build configuration list for PBXProject "ZoomScrollerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500638515E46AC1752E68632 /* Debug */,
+				8176C4D0CFFF29D3763917AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF411C6A6D2E1819B1ADD34E /* Build configuration list for PBXNativeTarget "ZoomScrollerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71698B061D2634EB7DFD34E /* Debug */,
+				5FBD707134901E28602394D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		75999C00FCE0C75ACE162501 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		545BB7A1E20CD14E4920D812 /* ZoomScroller */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZoomScroller;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E52C33A3C76C9093B1EBE159 /* Project object */;
+}
